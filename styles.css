@@ -1,0 +1,155 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f1e8;
+    color: #2e2e2e;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, serif;
+}
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section.alt {
+    background-color: #ece5da;
+}
+
+/* Navigation */
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 500;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+/* Hero */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #a66a43;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:visited {
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #8c5534;
+}
+
+/* Cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card h4 {
+    margin-bottom: 15px;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #a66a43;
+}
+
+.coming-soon {
+    display: inline-block;
+    margin-top: 15px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+/* Instagram Link */
+.insta-link {
+    color: #a66a43;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.insta-link:hover {
+    opacity: 0.7;
+}
+/* Font Awesome Icons */
+.icon {
+    font-size: 1.2rem;
+    color: #a66a43;
+    vertical-align: middle;
+    transition: opacity 0.2s ease;
+}
+
+.contact-icons a:hover .icon {
+    opacity: 0.6;
+}
+
+/* Footer */
+footer {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
